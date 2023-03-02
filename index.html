@@ -1,0 +1,106 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Interchive</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+
+<script src="script.js" defer></script>
+</head>
+<body>
+    <section class="header">
+        
+        <nav>
+            <a href="index.html"><img src="logo2.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i id="left" class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="story.html">Stories</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="updates.html">Updates</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                    <li><a href="download.html" class="download-button">Download</a></li>
+                </ul>
+            </div>
+            <i id="right" class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        
+        <div class="text-box">
+            <h1>Enjoy an Alberian Tale</h1>
+            <h1>once more</h1>
+            <p>A tool to create your own Alberian story<br>or relive past memories</p>
+            <a href="contact.html" class="hero-btn">Download</a>
+        </div>
+    </section>
+    
+<!---------- Interchive? ----------->
+    
+    <section>
+      <div class="infoo" class="wrapper" background-image:back.png; >
+        <article class="img-info">
+        <h1>What is the Interchive</h1>
+        <p>Interchive is a term I came up with meaning online archive. <br> The Interchive is an application that attempts to replicate previous dragalia stories or to create new ones!</p>
+          
+        </article>
+        <img src="euden.png" alt="eudes" class="img-me" width="344.1" height="344.4" />
+      </div>
+    </section>
+    
+<!---------- Story ---------->
+   
+    <section class="storyfront" >
+        <h1>Creator Stories</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="storewrapper"> 
+              <i id="left" class="fa-solid fa fa-angle-left"></i>
+              <div class="carousel">
+                <a href=""><button class="button button1">button1</button></a>
+                <a href=""><button class="button button1">button1</button></a>
+                <a href=""><button class="button button1">button1</button></a>
+                <a href=""><button class="button button1">button1</button></a>
+                <a href=""><button class="button button1">button1</button></a>
+                <a href=""><button class="button button1">button1</button></a>
+              </div>
+              <i id="right" class="fa-solid fa fa-angle-right"></i>
+            </div>
+    </section>
+    
+<!---------- Facilities ---------->
+ 
+<!-------- footer ---------->
+
+<section class="footer">
+        <h2>About Us</h2>
+        <p> Interchive Discord is avalible if you need any help or have questions.<br>If you have any other questions/inquirys please contact me on twitter!</p>
+        <div class="icons">
+            <a href="https://twitter.com/ItsGalex_"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.youtube.com/@ItsGalex"><i class="fab fa-youtube"></i></a>
+            <a href="https://discord.gg/feqQMnzQKj"><i class='fab fa-discord'></i></a>
+        </div>
+</section>     
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>
+
+
+
+
+
+
+
